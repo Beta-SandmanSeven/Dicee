@@ -43,5 +43,9 @@ class ViewController: UIViewController {
         print(randomDiceIndex1);
     }
     
+    override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
+        updateDiceImages();
+    }
+    
 }
 
